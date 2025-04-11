@@ -1,4 +1,10 @@
-# Ignore Terraform state and cache files
+# .gitignore
 .terraform/
-*.tfstate
-*.tfstate.backup
+terraform.tfstate
+terraform.tfstate.*
+crash.log
+*.tfvars
+*.tfvars.json
+*.backup
+override.tf
+override.tf.json
